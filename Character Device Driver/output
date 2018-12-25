@@ -1,0 +1,50 @@
+root@quark:~# insmod hcsr.ko number_of_device=2
+root@quark:~# ./hcsr ioctl
+Please enter the number of devices:-2
+Please enter the echo pin for device 0:-0
+Please enter the trigger pin for device 0:-1
+Please enter the number of samples for device 0:-6
+Please enter the delay for device 0:-1
+Please enter the echo pin for device 1:-2
+Please enter the trigger pin for device 1:-4
+Please enter the number of samples for device 1:-6
+Please enter the delay for device 1:-1
+Current distance measurement for device 0 - Time :- 423576012651  Distance :- 8cm
+Current distance measurement for device 1 - Time :- 425180719735  Distance :- 8cm
+Error in starting the measurement
+Error in starting the measurement
+Error in starting the measurement
+Error in starting the measurement
+Current distance measurement for device 0 - Time :- 429187027929  Distance :- 7cm
+Current distance measurement for device 1 - Time :- 430846354069  Distance :- 8cm
+root@quark:~# ./hcsr      
+Please enter the number of devices:-2
+Current distance measurement for device 0 - Time :- 433293557715  Distance :- 8cm
+Current distance measurement for device 1 - Time :- 434937040467  Distance :- 8cm
+Error in starting the measurement
+Error in starting the measurement
+Error in starting the measurement
+Error in starting the measurement
+Current distance measurement for device 0 - Time :- 445703727483  Distance :- 66cm
+Current distance measurement for device 1 - Time :- 447350722869  Distance :- 65cm
+root@quark:~# ./hcsr 
+Please enter the number of devices:-2
+Current distance measurement for device 0 - Time :- 449798070103  Distance :- 66cm
+Current distance measurement for device 1 - Time :- 451441964017  Distance :- 65cm
+Error in starting the measurement
+Error in starting the measurement
+Error in starting the measurement
+Error in starting the measurement
+Current distance measurement for device 0 - Time :- 466148572567  Distance :- 65cm
+Current distance measurement for device 1 - Time :- 467799394089  Distance :- 65cm
+root@quark:~# ./hcsr 
+Please enter the number of devices:-2
+Current distance measurement for device 0 - Time :- 470246895945  Distance :- 66cm
+Current distance measurement for device 1 - Time :- 471890615657  Distance :- 65cm
+Error in starting the measurement
+Error in starting the measurement
+Error in starting the measurement
+Error in starting the measurement
+Current distance measurement for device 0 - Time :- 478788285169  Distance :- 5cm
+Current distance measurement for device 1 - Time :- 480441132253  Distance :- 8cm
+

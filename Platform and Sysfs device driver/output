@@ -1,0 +1,19 @@
+root@quark:~# insmod platform_driver.ko 
+root@quark:~# insmod platform_device.ko 
+root@quark:~# chmod +x Main_sysfs.sh 
+root@quark:~# ./Main_sysfs.sh 
+Enter trigger pin for device 1 -> 1
+Enter echo pin  for device 1 -> 0
+Enter Number of samples  for device 1 -> 5
+Enter sampling period for device 1 -> 1
+Enter trigger pin for device 2 -> 4
+Enter echo pin  for device 2 -> 2
+Enter Number of samples  for device 2 -> 5
+Enter sampling period for device 2 -> 1
+Case 1(device 1): Start Measurement(enable=1)
+distance measurement device 1
+100
+Case 1(device 2): Start Measurement(enable=1)
+distance measurement device 2
+100
+
