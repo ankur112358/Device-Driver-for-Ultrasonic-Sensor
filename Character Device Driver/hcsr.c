@@ -209,6 +209,7 @@ int mux_free_pins(int pin, bool func){
 }
 
 ///// this fetches the trigger and echo pins per device
+//// this improve thes utiluty and endances the spped of the model
 
 int set_mux(struct pins* pins, void* device_struct){
 
